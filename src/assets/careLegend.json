@@ -1,0 +1,36 @@
+
+
+[
+  {
+    "category": "Care Level",
+    "title": "Novice",
+    "description": "Easy to take care. Begginers' plants!"
+   
+  },
+  {
+    "category": "Care Level",
+    "title": "Green thumb",
+    "description": "A bit more of attention is required."
+  },
+  {
+    "category": "Care Level",
+    "title": " Expert",
+    "description": "Save these plants for when you fill as a gardening badass."
+  },
+  {
+    "category": "Light",
+    "title": "Low-moderate",
+    "description": "Can handle low light, but will thrive in bright and indirect light."
+   
+  },
+  {
+    "category": "Light",
+    "title": "Bright, indirect",
+    "description": "Light the morning sun. In the afternoon, only filtered light."
+  },
+  {
+    "category": "Light",
+    "title": "Full sun",
+    "description": "Needs the sun light in its full potencial."
+  }
+]
