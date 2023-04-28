@@ -32,5 +32,75 @@
     "category": "Light",
     "title": "Full sun",
     "description": "Needs the sun light in its full potencial."
+  },
+  {
+    "category": "Water",
+    "title": "Low",
+    "description": "For the succulents. Water only dried-out soils."
+  },
+  {
+    "category": "Water",
+    "title": "Moderate",
+    "description": "The majority of the plants are here. Left the top 5 cm of the soil dry out."
+  },
+  {
+    "category": "Water",
+    "title": "High",
+    "description": "Keep it moistyyy!"
+  },
+  {
+    "category": "Soil",
+    "title": "Well-draining",
+    "description": "Potting mix with perlite, reducing moisture retention."
+  },
+  {
+    "category": "Soil",
+    "title": "Moisture-retaining",
+    "description": "Potting mix with coir or coco peat are the best!"
+  },
+  {
+    "category": "Soil",
+    "title": "Coarse + Sandy",
+    "description": "Potting mix with lots of sand and grit."
+  },
+  {
+    "category": "Humidity",
+    "title": "None",
+    "description": "Do not mist! It can bring funghi and other ecological disbalances."
+  },
+  {
+    "category": "Humidity",
+    "title": "Low",
+    "description": "Mist in the summer, but go well without it."
+  },
+  {
+    "category": "Humidity",
+    "title": "Medium",
+    "description": "Many of them like it moisty! Use a water spritz or a pebble tray."
+  },
+  {
+    "category": "Humidity",
+    "title": "High",
+    "description": "Like a lot of humidity. Maybe a humidifier would be a good idea."
+  },
+  {
+    "category": "Propagating",
+    "title": "Stem cuttings",
+    "description": "Cut it at a 45° angle, ensuring one or two nodes with some leaves in them."
+  },
+  {
+    "category": "Propagating",
+    "title": "Plantlets + Offsets",
+    "description": "Baby plants that usually appears in the basis of the mother plant."
+  },
+  {
+    "category": "Propagating",
+    "title": "Leaf cuttings",
+    "description": "Remove a entire leaf from the stem, give it a hormonal help (honey or even saliva) and place it in your potting mix. Easy!"
+  },
+  {
+    "category": "Propagating",
+    "title": "Division",
+    "description": "Separate a plant in two. Use a clean knife and lots of love. It can be very stressful."
   }
 ]

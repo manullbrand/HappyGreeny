@@ -28,160 +28,51 @@ export default function Categories() {
             );
           }
         })}
-        {/* <dt>
-                <img />
-                Novice
-              </dt>
-              <dd>Easy to take care. Begginers' plants!</dd>
-              <dt>
-                <img />
-                Green thumb
-              </dt>
-              <dd>A bit more of attention is required.</dd>
-              <dt>
-                <img />
-                Expert
-              </dt>
-              <dd>Save these plants for when you fill as a gardening badass.</dd>
-            </dl>
-            <dl>
-              Light
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-            </dl>
-            <dl>
-              Water
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-            </dl>
-            <dl>
-              Soil
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-            </dl>
-            <dl>
-              Humidity
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-            </dl>
-            <dl>
-              Propagating
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-            </dl>
-            <dl>
-              Growth habit
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-            </dl>
-            <dl>
-              Position
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-            </dl>
-            <dl>Toxicity
-            <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd>
-              <dt>
-                <img />
-              </dt>
-              <dd></dd> */}
+        <h2>Water</h2>
+        {legend.map((item) => {
+          if (item.category === "Water") {
+            return (
+              <dl>
+                <dt key={uuidv4}>{item.title}</dt>
+                <dd>{item.description}</dd>
+              </dl>
+            );
+          }
+        })}
+         <h2>Soil</h2>
+        {legend.map((item) => {
+          if (item.category === "Soil") {
+            return (
+              <dl>
+                <dt key={uuidv4}>{item.title}</dt>
+                <dd>{item.description}</dd>
+              </dl>
+            );
+          }
+        })}
+        <h2>Humidity</h2>
+        {legend.map((item) => {
+          if (item.category === "Humidity") {
+            return (
+              <dl>
+                <dt key={uuidv4}>{item.title}</dt>
+                <dd>{item.description}</dd>
+              </dl>
+            );
+          }
+        })}
+        <h2>Propagating</h2>
+        {legend.map((item) => {
+          if (item.category === "Propagating") {
+            return (
+              <dl>
+                <dt key={uuidv4}>{item.title}</dt>
+                <dd>{item.description}</dd>
+              </dl>
+            );
+          }
+        })}
+         
       </ul>
     </div>
   );
