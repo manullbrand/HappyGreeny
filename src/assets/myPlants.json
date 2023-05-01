@@ -1,138 +1,116 @@
 [
   {
-    "species": "Monstera deliciosa",
-    "alias": "Costela-de-Adão",
-    "size": "140cm",
-    "photo": "adansonii.jpg"
-   
+    "species": "Adiantum aethiopicum",
+    "alias": "Avenquinha",
+    "size": "20cm",
+    "photo": "images/plants/avenquinha.jpg"
   },
   {
-    "species": "Phalaenopsis ssp.",
-    "alias": "Orquídea rosa",
-    "size": "40cm",
-    "photo": ""
-   
-  },
-  {
-    "species": "Philodendron ssp.",
-    "alias": "Prince of Orange",
-    "size": "40cm",
-    "photo": ""
-   
-  },
-  {
-    "species": "Philodendron ssp.",
-    "alias": "Pink Princess",
-    "size": "40cm",
-    "photo": ""
-   
-  },
-  {
-    "species": "Persea americana",
-    "alias": "Abacatinho",
-    "size": "100cm",
-    "photo": ""
-   
-  },
-  {
-    "species": "",
-    "alias": "Chifrinho-de-veado",
-    "size": "40cm",
-    "photo": ""
-   
-  },
-  {
-    "species": "Areca",
+    "species": "Areca spp.",
     "alias": "Areca",
     "size": "40cm",
-    "photo": ""
-   
+    "photo": "images/plants/areca.jpg"
   },
   {
-    "species": "Nephrolepis",
-    "alias": "Nephrolepis",
+    "species": "Asparagus setaceus",
+    "alias": "Asparagus",
     "size": "50cm",
-    "photo": ""
-   
-  },
-  {
-    "species": "Mammilaria ssp.",
-    "alias": "Cactus tudo junto e misturado",
-    "size": "40cm",
-    "photo": ""
-   
-  },
-  {
-    "species": "Strelitzia",
-    "alias": "Strelitzia",
-    "size": "50cm",
-    "photo": ""
-   
+    "photo": "images/plants/asparagus.jpg"
   },
   {
     "species": "Begonia maculata",
     "alias": "Begônia Polka-dot",
     "size": "50cm",
-    "photo": ""
-   
+    "photo": "images/plants/begonia2.jpg"
   },
   {
-    "species": "",
-    "alias": "Flor-de-maio",
-    "size": "30cm",
-    "photo": ""
-   
+    "species": "Chamaedorea spp.",
+    "alias": "Camedórea",
+    "size": "70cm",
+    "photo": "images/plants/chamedorea.jpg"
   },
   {
-    "species": "Tradescantia nanouk",
-    "alias": "Nanouk",
-    "size": "20cm",
-    "photo": ""
-   
+    "species": "Mammilaria ssp.",
+    "alias": "Cactus tudo junto e misturado",
+    "size": "40cm",
+    "photo": "images/plants/mammilaria.jpg"
   },
   {
     "species": "Monstera adansonii",
     "alias": "Máscara de Macaco",
     "size": "50cm",
-    "photo": ""
-   
+    "photo": "images/plants/adansonii.jpg"
   },
   {
-    "species": "Asparagus",
-    "alias": "Asparagus",
+    "species": "Monstera deliciosa",
+    "alias": "Costela-de-Adão",
+    "size": "140cm",
+    "photo": "images/plants/costela.jpg"
+  },
+  {
+    "species": "Nephrolepis exaltata",
+    "alias": "Nephrolepis",
     "size": "50cm",
-    "photo": ""
-   
+    "photo": "images/plants/nephrolepis.jpg"
   },
   {
-    "species": "Chamedorea",
-    "alias": "Camedórea",
-    "size": "70cm",
-    "photo": ""
-   
+    "species": "Persea americana",
+    "alias": "Abacatinho",
+    "size": "100cm",
+    "photo": "images/plants/avocado.jpg"
   },
   {
-    "species": "Adiantum",
-    "alias": "Avenquinha",
-    "size": "20cm",
-    "photo": ""
-   
+    "species": "Phalaenopsis ssp.",
+    "alias": "Orquídea rosa",
+    "size": "40cm",
+    "photo": "images/plants/orchidea.jpg"
   },
   {
-    "species": "Phlebodium",
+    "species": "Philodendron erubescens",
+    "alias": "Prince of Orange",
+    "size": "40cm",
+    "photo": "images/plants/orange.jpg"
+  },
+  {
+    "species": "Philodendron erubescens",
+    "alias": "Pink Princess",
+    "size": "40cm",
+    "photo": "images/plants/princess.jpg"
+  },
+  {
+    "species": "Platycerium bifurcatum",
+    "alias": "Chifrinho-de-veado",
+    "size": "40cm",
+    "photo": "images/plants/chifre.jpg"
+  },
+  {
+    "species": "Phlebodium spp.",
     "alias": "Phlebodium",
     "size": "60cm",
-    "photo": ""
-   
+    "photo": "images/plants/phlebodium.jpg"
   },
   {
-    "species": "Tradescantia",
+    "species": "Schlumbergera truncata",
+    "alias": "Flor-de-maio",
+    "size": "30cm",
+    "photo": "images/plants/flormaio.jpeg"
+  },
+  {
+    "species": "Strelitzia reginae",
+    "alias": "Strelitzia",
+    "size": "50cm",
+    "photo": "images/plants/strelitzia.jpg"
+  },
+  {
+    "species": "Tradescantia blossfeldiana",
+    "alias": "Nanouk",
+    "size": "20cm",
+    "photo": "images/plants/nanouk.jpg"
+  },
+  {
+    "species": "Tradescantia zebrina",
     "alias": "Lambari",
     "size": "70cm",
-    "photo": ""
-   
+    "photo": "images/plants/lambari.jpg"
   }
-
-
-
 ]

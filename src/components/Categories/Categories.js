@@ -1,3 +1,4 @@
+// Main care points to look at when taking care of indoor plants, like humidity, luminosity and etc.
 import legend from "../../assets/careLegend.json";
 import { v4 as uuidv4 } from "uuid";
 
@@ -39,7 +40,7 @@ export default function Categories() {
             );
           }
         })}
-         <h2>Soil</h2>
+        <h2>Soil</h2>
         {legend.map((item) => {
           if (item.category === "Soil") {
             return (
@@ -72,7 +73,6 @@ export default function Categories() {
             );
           }
         })}
-         
       </ul>
     </div>
   );
