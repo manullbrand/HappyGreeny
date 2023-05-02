@@ -3,114 +3,134 @@
     "species": "Adiantum aethiopicum",
     "alias": "Avenquinha",
     "size": "20cm",
-    "photo": "images/plants/avenquinha.jpg"
+    "photo": "images/plants/avenquinha.jpg",
+    "watering": 9
+    
   },
   {
     "species": "Areca spp.",
     "alias": "Areca",
     "size": "40cm",
-    "photo": "images/plants/areca.jpg"
+    "photo": "images/plants/areca.jpg",
+    "watering": 5
   },
   {
     "species": "Asparagus setaceus",
     "alias": "Asparagus",
     "size": "50cm",
-    "photo": "images/plants/asparagus.jpg"
+    "photo": "images/plants/asparagus.jpg",
+    "watering": 10
   },
   {
     "species": "Begonia maculata",
     "alias": "Begônia Polka-dot",
     "size": "50cm",
-    "photo": "images/plants/begonia2.jpg"
+    "photo": "images/plants/begonia2.jpg",
+    "watering": 7
   },
   {
     "species": "Chamaedorea spp.",
     "alias": "Camedórea",
     "size": "70cm",
-    "photo": "images/plants/chamedorea.jpg"
+    "photo": "images/plants/chamedorea.jpg",
+    "watering": 8
   },
   {
     "species": "Mammilaria ssp.",
     "alias": "Cactus tudo junto e misturado",
     "size": "40cm",
-    "photo": "images/plants/mammilaria.jpg"
+    "photo": "images/plants/mammilaria.jpg",
+    "watering": 8
   },
   {
     "species": "Monstera adansonii",
     "alias": "Máscara de Macaco",
     "size": "50cm",
-    "photo": "images/plants/adansonii.jpg"
+    "photo": "images/plants/adansonii.jpg",
+    "watering": 9
   },
   {
     "species": "Monstera deliciosa",
     "alias": "Costela-de-Adão",
     "size": "140cm",
-    "photo": "images/plants/costela.jpg"
+    "photo": "images/plants/costela.jpg",
+    "watering": 5
   },
   {
     "species": "Nephrolepis exaltata",
     "alias": "Nephrolepis",
     "size": "50cm",
-    "photo": "images/plants/nephrolepis.jpg"
+    "photo": "images/plants/nephrolepis.jpg",
+    "watering": 5
   },
   {
     "species": "Persea americana",
     "alias": "Abacatinho",
     "size": "100cm",
-    "photo": "images/plants/avocado.jpg"
+    "photo": "images/plants/avocado.jpg",
+    "watering": 7
   },
   {
     "species": "Phalaenopsis ssp.",
     "alias": "Orquídea rosa",
     "size": "40cm",
-    "photo": "images/plants/orchidea.jpg"
+    "photo": "images/plants/orchidea.jpg",
+    "watering": 7
   },
   {
     "species": "Philodendron erubescens",
     "alias": "Prince of Orange",
     "size": "40cm",
-    "photo": "images/plants/orange.jpg"
+    "photo": "images/plants/orange.jpg",
+    "watering": 7
   },
   {
     "species": "Philodendron erubescens",
     "alias": "Pink Princess",
     "size": "40cm",
-    "photo": "images/plants/princess.jpg"
+    "photo": "images/plants/princess.jpg",
+    "watering": 7
   },
   {
     "species": "Platycerium bifurcatum",
     "alias": "Chifrinho-de-veado",
     "size": "40cm",
-    "photo": "images/plants/chifre.jpg"
+    "photo": "images/plants/chifre.jpg",
+    "watering": 8
   },
   {
     "species": "Phlebodium spp.",
     "alias": "Phlebodium",
     "size": "60cm",
-    "photo": "images/plants/phlebodium.jpg"
+    "photo": "images/plants/phlebodium.jpg",
+    "watering": 6
   },
   {
     "species": "Schlumbergera truncata",
     "alias": "Flor-de-maio",
     "size": "30cm",
-    "photo": "images/plants/flormaio.jpeg"
+    "photo": "images/plants/flormaio.jpeg",
+    "watering": 7
   },
   {
     "species": "Strelitzia reginae",
     "alias": "Strelitzia",
     "size": "50cm",
-    "photo": "images/plants/strelitzia.jpg"
+    "photo": "images/plants/strelitzia.jpg",
+    "watering": 5
   },
   {
     "species": "Tradescantia blossfeldiana",
     "alias": "Nanouk",
     "size": "20cm",
-    "photo": "images/plants/nanouk.jpg"
+    "photo": "images/plants/nanouk.jpg",
+    "watering": 12
   },
   {
     "species": "Tradescantia zebrina",
     "alias": "Lambari",
     "size": "70cm",
-    "photo": "images/plants/lambari.jpg"
+    "photo": "images/plants/lambari.jpg",
+    "watering": 9
   }
 ]
