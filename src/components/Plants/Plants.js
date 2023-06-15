@@ -3,7 +3,6 @@ import myPlants from "../../assets/myPlants.json";
 import { v4 as uuidv4 } from "uuid";
 import Actions from "../Actions/Actions";
 
-
 export default function Plants() {
   //console.log(myPlants[0].watering + myPlants[1].watering) //14
   //console.log(myPlants.length) // 19
@@ -26,18 +25,16 @@ export default function Plants() {
         Average watering time for all plants in the Spring: {averageWatering()}{" "}
       </h1>
       <ul>
-        <li key={uuidv4}>
-          {myPlants.map((item) => (
-            <>
-              <h1>{item.species}</h1>
-              <h2>{item.alias}</h2>
-              <p>{item.size}</p>
-              <p>Watering on Spring occurs each {item.watering} days</p>
-              <img src={item.photo} />
-              <Actions />
-            </>
-          ))}
-        </li>
+        {myPlants.map((item) => (
+          <li key={item.id}>
+            <h1>{item.species}</h1>
+            <h2>{item.alias}</h2>
+            <p>{item.size}</p>
+            <p>Watering on Spring occurs each {item.watering} days</p>
+            <img src={item.photo} />
+            <Actions />
+          </li>
+        ))}
       </ul>
       <Actions />
     </>

@@ -11,8 +11,8 @@ export default function Categories() {
         {legend.map((item) => {
           if (item.category === "Care Level") {
             return (
-              <dl>
-                <dt key={uuidv4}>{item.title}</dt>
+              <dl key={item.id}>
+                <dt>{item.title}</dt>
                 <dd>{item.description}</dd>
               </dl>
             );
@@ -22,8 +22,8 @@ export default function Categories() {
         {legend.map((item) => {
           if (item.category === "Light") {
             return (
-              <dl>
-                <dt key={uuidv4}>{item.title}</dt>
+              <dl key={item.id}>
+                <dt>{item.title}</dt>
                 <dd>{item.description}</dd>
               </dl>
             );
@@ -33,8 +33,8 @@ export default function Categories() {
         {legend.map((item) => {
           if (item.category === "Water") {
             return (
-              <dl>
-                <dt key={uuidv4}>{item.title}</dt>
+              <dl key={item.id}>
+                <dt>{item.title}</dt>
                 <dd>{item.description}</dd>
               </dl>
             );
@@ -44,8 +44,8 @@ export default function Categories() {
         {legend.map((item) => {
           if (item.category === "Soil") {
             return (
-              <dl>
-                <dt key={uuidv4}>{item.title}</dt>
+              <dl key={item.id}>
+                <dt>{item.title}</dt>
                 <dd>{item.description}</dd>
               </dl>
             );
@@ -55,8 +55,8 @@ export default function Categories() {
         {legend.map((item) => {
           if (item.category === "Humidity") {
             return (
-              <dl>
-                <dt key={uuidv4}>{item.title}</dt>
+              <dl key={item.id}>
+                <dt>{item.title}</dt>
                 <dd>{item.description}</dd>
               </dl>
             );
@@ -66,8 +66,8 @@ export default function Categories() {
         {legend.map((item) => {
           if (item.category === "Propagating") {
             return (
-              <dl>
-                <dt key={uuidv4}>{item.title}</dt>
+              <dl key={item.id}>
+                <dt>{item.title}</dt>
                 <dd>{item.description}</dd>
               </dl>
             );

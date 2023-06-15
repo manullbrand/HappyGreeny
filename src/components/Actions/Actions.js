@@ -1,40 +1,14 @@
-// Here will be the action points to take care of the indoor plants, like when to water, trim, fertilize and repot.
+// Here will be the action points to take care of our indoor plants, as: when to water, to trim, to fertilize and to repot.
 
 import { DatePicker } from "@mui/x-date-pickers";
-import moment from "moment";
-import { useEffect, useState } from "react";
 
 export default function Actions() {
-  // se data de aguar for maior do que o watering days, mostrar plantinha com sede; do contrário, mostrar plantinhas verdinha
-
-  const [selectedDate, setSelectedDate] = useState(
-    moment(JSON.parse(localStorage.getItem("selectedDate"))) || null
-  );
-
-  // Update localStorage whenever selectedDate changes
-  useEffect(() => {
-    localStorage.setItem("selectedDate", JSON.stringify(selectedDate));
-  }, [selectedDate]);
-
-  const handleChange = (date) => {
-    setSelectedDate(moment(date));
-  };
-
-  //uses moment.js to compare dates
-  const isBeforeToday = selectedDate && selectedDate.isBefore(moment(), "day");
+  // se data de aguar for maior do que o watering days, mostrar plantinha com sede; do contrário, mostrar plantinhas verdinhas
+  // criar uma lista com essas datas e usar o calendário apenas para atualizar essa lista, pois colocar states (e localStorage) diretamente dentro do calendário está dando muito problema.
 
   return (
     <>
-      <div>
-        <DatePicker
-          format="DD-MM-YYYY"
-          label={"Watered"}
-          value={selectedDate}
-          onChange={handleChange}
-        />
-        {isBeforeToday && <div> The selected date is before today.</div>}
-      </div>
-
+      <DatePicker format="DD-MM-YYYY" label={"Watered"} />
       <DatePicker format="DD-MM-YYYY" label={"Fertilized"} />
       <DatePicker format="DD-MM-YYYY" label={"Trimmed"} />
       <DatePicker format="DD-MM-YYYY" label={"Repoted"} />

@@ -1,106 +1,122 @@
-
-
 [
   {
     "category": "Care Level",
     "title": "Novice",
-    "description": "Easy to take care. Begginers' plants!"
-   
+    "description": "Easy to take care. Begginers' plants!",
+    "id": 1
   },
   {
     "category": "Care Level",
     "title": "Green thumb",
-    "description": "A bit more of attention is required."
+    "description": "A bit more of attention is required.",
+    "id": 2
   },
   {
     "category": "Care Level",
     "title": " Expert",
-    "description": "Save these plants for when you fill as a gardening badass."
+    "description": "Save these plants for when you fill as a gardening badass.",
+    "id": 3
   },
   {
     "category": "Light",
     "title": "Low-moderate",
-    "description": "Can handle low light, but will thrive in bright and indirect light."
-   
+    "description": "Can handle low light, but will thrive in bright and indirect light.",
+    "id": 4
   },
   {
     "category": "Light",
     "title": "Bright, indirect",
-    "description": "Light the morning sun. In the afternoon, only filtered light."
+    "description": "Light the morning sun. In the afternoon, only filtered light.",
+    "id": 5
   },
   {
     "category": "Light",
     "title": "Full sun",
-    "description": "Needs the sun light in its full potencial."
+    "description": "Needs the sun light in its full potencial.",
+    "id": 6
   },
   {
     "category": "Water",
     "title": "Low",
-    "description": "For the succulents. Water only dried-out soils."
+    "description": "For the succulents. Water only dried-out soils.",
+    "id": 7
   },
   {
     "category": "Water",
     "title": "Moderate",
-    "description": "The majority of the plants are here. Left the top 5 cm of the soil dry out."
+    "description": "The majority of the plants are here. Left the top 5 cm of the soil dry out.",
+    "id": 8
   },
   {
     "category": "Water",
     "title": "High",
-    "description": "Keep it moistyyy!"
+    "description": "Keep it moistyyy!",
+    "id": 9
   },
   {
     "category": "Soil",
     "title": "Well-draining",
-    "description": "Potting mix with perlite, reducing moisture retention."
+    "description": "Potting mix with perlite, reducing moisture retention.",
+    "id": 10
   },
   {
     "category": "Soil",
     "title": "Moisture-retaining",
-    "description": "Potting mix with coir or coco peat are the best!"
+    "description": "Potting mix with coir or coco peat are the best!",
+    "id": 11
   },
   {
     "category": "Soil",
     "title": "Coarse + Sandy",
-    "description": "Potting mix with lots of sand and grit."
+    "description": "Potting mix with lots of sand and grit.",
+    "id": 12
   },
   {
     "category": "Humidity",
     "title": "None",
-    "description": "Do not mist! It can bring funghi and other ecological disbalances."
+    "description": "Do not mist! It can bring funghi and other ecological disbalances.",
+    "id": 13
   },
   {
     "category": "Humidity",
     "title": "Low",
-    "description": "Mist in the summer, but go well without it."
+    "description": "Mist in the summer, but go well without it.",
+    "id": 14
   },
   {
     "category": "Humidity",
     "title": "Medium",
-    "description": "Many of them like it moisty! Use a water spritz or a pebble tray."
+    "description": "Many of them like it moisty! Use a water spritz or a pebble tray.",
+    "id": 15
   },
   {
     "category": "Humidity",
     "title": "High",
-    "description": "Like a lot of humidity. Maybe a humidifier would be a good idea."
+    "description": "Like a lot of humidity. Maybe a humidifier would be a good idea.",
+    "id": 16
   },
   {
     "category": "Propagating",
     "title": "Stem cuttings",
-    "description": "Cut it at a 45° angle, ensuring one or two nodes with some leaves in them."
+    "description": "Cut it at a 45° angle, ensuring one or two nodes with some leaves in them.",
+    "id": 17
   },
   {
     "category": "Propagating",
     "title": "Plantlets + Offsets",
-    "description": "Baby plants that usually appears in the basis of the mother plant."
+    "description": "Baby plants that usually appears in the basis of the mother plant.",
+    "id": 18
   },
   {
     "category": "Propagating",
     "title": "Leaf cuttings",
-    "description": "Remove a entire leaf from the stem, give it a hormonal help (honey or even saliva) and place it in your potting mix. Easy!"
+    "description": "Remove a entire leaf from the stem, give it a hormonal help (honey or even saliva) and place it in your potting mix. Easy!",
+    "id": 19
   },
   {
     "category": "Propagating",
     "title": "Division",
-    "description": "Separate a plant in two. Use a clean knife and lots of love. It can be very stressful."
+    "description": "Separate a plant in two. Use a clean knife and lots of love. It can be very stressful.",
+    "id": 20
   }
 ]
