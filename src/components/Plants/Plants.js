@@ -1,6 +1,5 @@
 // List of all my plants, their species' name, nickname, size (with pot) and photo.
 import myPlants from "../../assets/myPlants.json";
-import { v4 as uuidv4 } from "uuid";
 import Actions from "../Actions/Actions";
 
 export default function Plants() {
@@ -36,7 +35,6 @@ export default function Plants() {
           </li>
         ))}
       </ul>
-      <Actions />
     </>
   );
 }
