@@ -24,21 +24,24 @@ export default function Actions() {
     };
   };
 
-  const handleAddItem = () => {
+  const handleAddItem = (date) => {
     const newItem = (
-      <li>
+      <>
         {formatDate(selectedDate).day}/{formatDate(selectedDate).month}/
         {formatDate(selectedDate).year}
-      </li>
+      </>
     );
 
-    setList((prevList) => [...prevList, newItem]);
-    //corrigir aqui nessa lógica o NaN que parece na lista a primeira vez que ela é renderizada
+    if (list.length < 4) {
+      setList((prevList) => [...prevList, newItem]);
+    } else {
+      setList((prevList) => [...prevList.slice(1), newItem]);
+    }
   };
 
   const handleDateChange = (date) => {
     setSelectedDate(date);
-    handleAddItem();
+    handleAddItem(date);
   };
 
   return (
@@ -53,18 +56,15 @@ export default function Actions() {
       {/* Essa lista aqui embaixo deveria ser um componente? */}
       {selectedDate && (
         <ul>
-          {list.map((item, index) => (
+          {/* slice(1) to do not render the first date = NaN */}
+          {list.slice(1).map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
       )}
 
       <DatePicker format="DD-MM-YYYY" label={"Fertilized"} />
-      <ul>
-        <li>Date 1</li>
-        <li>Date 2</li>
-        <li>Date 3</li>
-      </ul>
+
       <DatePicker format="DD-MM-YYYY" label={"Trimmed"} />
       <ul>
         <li>Date 1</li>
