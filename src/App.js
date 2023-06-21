@@ -3,6 +3,7 @@ import Categories from "./components/Categories/Categories";
 import Banner from "./components/Banner/Banner";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import "./App.css"
 
 function App() {
   return (

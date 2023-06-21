@@ -1,0 +1,16 @@
+.App {
+  background-color: #127692;
+}
+
+.App h1,
+h2 {
+  color: #f4b64b;
+}
+
+.App p, dt, dd {
+  color: white;
+}
+
+/* background-color: #127692
+biggerTextColor: #f4b64b
+smallTextColor: white */
