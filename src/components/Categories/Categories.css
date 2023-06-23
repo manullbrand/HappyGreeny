@@ -1,9 +1,16 @@
 .container__categories {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 1rem;
-  padding: 1rem;
+  grid-template-rows: 1fr 2fr;
+  
+  grid-column-gap: 1rem;
+  padding: 0;
+  margin: 2rem 1.5rem;
+}
+
+.container__categories h2 {
+  color: #fff;
+  margin: 0;
 }
 
 .categories__hiddenText {
@@ -12,6 +19,7 @@
 
 .categories__showHidden:hover .categories__hiddenText {
   display: block;
+  
 }
 
 .categories__listTitle {
@@ -26,7 +34,7 @@
 
   text-transform: uppercase;
   text-shadow: 0 calc(-1 * var(--h) * var(--_i, 0)) var(--c),
-    0 calc(var(--h) * (1 - var(--_i, 0))) white;
+    0 calc(var(--h) * (1 - var(--_i, 0))) #fff;
   background: linear-gradient(var(--c) 0 0) no-repeat
     calc(200% - var(--_i, 0) * 100%) 100% / 200%
     calc(100% * var(--_i, 0) + 0.08em);

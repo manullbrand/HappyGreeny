@@ -3,17 +3,19 @@ import Categories from "./components/Categories/Categories";
 import Banner from "./components/Banner/Banner";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import "./App.css"
+import "./App.css";
+import Footer from "./components/Footer/Footer";
+
+
 
 function App() {
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
-       <div className="App">
+      <div className="App">
         <Banner />
-        <main>
-          <Categories />
-          <Plants />
-        </main>
+        <Categories />
+        <Plants />
+        {/* <Footer /> */}
       </div>
     </LocalizationProvider>
   );

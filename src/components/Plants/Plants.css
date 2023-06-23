@@ -1,0 +1,51 @@
+
+.plants__averageWatering {
+  grid-column: 1 / span 2;
+}
+
+.plants__listCare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+/* Arrumar esses nomes genéricos de classes */
+.container {
+  position: relative;
+  width: 50%;
+}
+.plants__listCare img {
+  opacity: 1;
+  border-radius: 50%;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-tranform: translate(-50%, -50%);
+}
+
+.container:hover img {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #f4b64b;
+  border-radius: 1rem;
+  font-style: italic;
+  padding: 10px 30px;
+  text-align: end;
+}

@@ -66,17 +66,8 @@ export default function Actions() {
       <DatePicker format="DD-MM-YYYY" label={"Fertilized"} />
 
       <DatePicker format="DD-MM-YYYY" label={"Trimmed"} />
-      <ul>
-        <li>Date 1</li>
-        <li>Date 2</li>
-        <li>Date 3</li>
-      </ul>
+
       <DatePicker format="DD-MM-YYYY" label={"Repoted"} />
-      <ul>
-        <li>Date 1</li>
-        <li>Date 2</li>
-        <li>Date 3</li>
-      </ul>
     </>
   );
 }
