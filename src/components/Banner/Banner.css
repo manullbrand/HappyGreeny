@@ -1,15 +1,39 @@
 .App-header {
+  background-color: rgba(52, 64, 66, 0.536);
   display: grid;
+  position: relative;
 }
 
 .App-header h1 {
   font-size: 5rem;
   font-family: "Elsie Swash Caps", sans-serif;
-  margin: 1.5rem 1.5rem 1rem 1.5rem;
+  margin: 1rem 1.5rem 1rem 1.5rem;
+  text-shadow: 4px 4px 8px rgba(51, 51, 50, 0.646);
+  z-index: 1;
 }
 
-.App-header p {
+.App-header__logoTitle {
+  filter: invert(77%) sepia(98%) saturate(1246%) hue-rotate(322deg)
+    brightness(101%) contrast(92%);
+  height: 6rem;
+  width: 6rem;
+}
+
+.App-header h2 {
   font-size: 1.8rem;
   font-family: "Ubuntu", sans-serif;
-  margin: 0 1.5rem;
+  margin: 0 1.5rem 1rem 5.5rem;
+  text-shadow: 4px 4px 5px rgba(51, 51, 50, 0.646);
+  z-index: 1;
+}
+
+.App-header__imgBanner {
+  border: white;
+  border-radius: 120px 0 0 120px;
+  height: 15rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 32rem;
+  z-index: 0;
 }

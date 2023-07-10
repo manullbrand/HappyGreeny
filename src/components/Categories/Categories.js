@@ -5,9 +5,8 @@ import "./Categories.css";
 export default function Categories() {
   return (
     <div>
-      
-      <ul className="container__categories">
-        <div >
+      <ul className="categories__container">
+        <div className="categories__cards">
           <h2>Care Level</h2>
           {legend.map((item) => {
             if (item.category === "Care Level") {
@@ -20,7 +19,7 @@ export default function Categories() {
             }
           })}
         </div>
-        <div>
+        <div className="categories__cards">
           <h2>Light</h2>
           {legend.map((item) => {
             if (item.category === "Light") {
@@ -33,7 +32,7 @@ export default function Categories() {
             }
           })}
         </div>
-        <div>
+        <div className="categories__cards">
           <h2>Water</h2>
           {legend.map((item) => {
             if (item.category === "Water") {
@@ -46,7 +45,7 @@ export default function Categories() {
             }
           })}
         </div>
-        <div>
+        <div className="categories__cards">
           <h2>Soil</h2>
           {legend.map((item) => {
             if (item.category === "Soil") {
@@ -59,7 +58,7 @@ export default function Categories() {
             }
           })}
         </div>
-        <div>
+        <div className="categories__cards">
           <h2>Humidity</h2>
           {legend.map((item) => {
             if (item.category === "Humidity") {
@@ -72,7 +71,7 @@ export default function Categories() {
             }
           })}
         </div>
-        <div>
+        <div className="categories__cards">
           <h2>Propagating</h2>
           {legend.map((item) => {
             if (item.category === "Propagating") {

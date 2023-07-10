@@ -1,29 +1,40 @@
-.container__categories {
+.categories__container {
+  background: url("../../assets/images/splash-background.png") no-repeat top -2rem
+    right;
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr;
-  
-  grid-column-gap: 1rem;
-  padding: 0;
-  margin: 2rem 1.5rem;
+  grid-template-rows: 15rem 15rem;
+  grid-gap: 2rem;
+
+  margin: 0;
+  padding: 4rem 3rem;
 }
 
-.container__categories h2 {
+.categories__cards {
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.09);
+  border-radius: 0 0 10px 0;
+  background-color: rgba(247, 244, 244, 0.132);
+  padding: 0.5rem;
+}
+
+.categories__container h2 {
   color: #fff;
   margin: 0;
+  text-shadow: 2px 2px 8px black;
 }
 
 .categories__hiddenText {
   display: none;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.748);
 }
 
 .categories__showHidden:hover .categories__hiddenText {
   display: block;
-  
 }
 
 .categories__listTitle {
-  --c: #f4b64b; /* the color  */
+  --c: #494742; /* the color  */
   --h: 1.5em; /* the height */
 
   font-weight: bold;

@@ -1,18 +1,21 @@
-.App{
+.App {
   background-color: #127692;
- 
- 
-  
- 
 }
 
-.App h1,
-h2, ul {
+.App,
+ul {
   color: #f4b64b;
-  
 }
 
-.App p, dt, dd, ul {
+.App p {
+  margin: 0;
+}
+
+.App h2,
+p,
+dt,
+dd,
+ul {
   color: white;
   list-style: none;
 }
