@@ -15,7 +15,7 @@ function App() {
         <Banner />
         <Categories />
         <Plants />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </LocalizationProvider>
   );

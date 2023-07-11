@@ -22,19 +22,20 @@
 }
 
 .plants__alias {
-  margin: 1.5rem 0 1.5rem 2rem;
+  margin: 1rem 0 0 2rem;
   text-transform: uppercase;
 }
 
 .plants__containerImg {
-  margin: 0.5rem 1.5rem;
+  align-self: center;
   position: relative;
-  width: 40%;
+  width: 50%;
 }
 
 .plants__listCare img {
   backface-visibility: hidden;
   border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   display: block;
   height: auto;
   margin: 0;
@@ -63,7 +64,7 @@
 }
 
 .plants__containerText {
-  background-color: #f4b64b;
+  background-color: #f4b64b97;
   border-radius: 1rem;
   font-style: italic;
   padding: 10px 30px;
@@ -75,15 +76,45 @@
   border-radius: 5px;
   background-color: rgba(247, 244, 244, 0.132);
   margin: 2rem;
+  padding: 1rem;
 }
 
 .plants__plantCard {
   display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
 }
 
 .plants__plantInfo {
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.295);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+  line-height: 1.5rem;
+  padding: 0.5rem;
+}
+
+.plants__plantInfo h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.plants__plantInfo p {
+  color: white;
+  text-shadow: none;
 }
 
 .plants__averageWatering {
   grid-column: 1 / span 2;
+}
+
+.plants__calendar {
+  background-color: rgba(255, 255, 255, 0.295);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
 }

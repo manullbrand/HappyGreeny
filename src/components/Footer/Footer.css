@@ -1,4 +1,15 @@
 .footer__container {
+  align-items: flex-end;
+  background-color: #f4b64b;
   display: grid;
-  grid-template-columns: 10rem 10rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 1.5rem 0;
+  
+}
+
+.footer__logo {
+  
+  height: 1.5rem;
+  width: 1.5rem;
 }

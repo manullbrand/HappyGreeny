@@ -6,12 +6,12 @@
     "photo": "images/plants/avenquinha.jpg",
     "watering": 9,
     "id": 1,
-    "careLevel": "Green thumb",
-    "light": "Bright, indirect",
-    "water": "Moderate-high",
-    "soil": "Moisture-retaining",
-    "humidity": "Medium-high",
-    "propagation": "Division"
+    "careLevel": "🎓 Green thumb",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate-high",
+    "soil": "🪴 Moisture-retaining",
+    "humidity": "♨️ Medium-high",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Dypsis spp.",
@@ -20,12 +20,12 @@
     "photo": "images/plants/areca.jpg",
     "watering": 5,
     "id": 2,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "Low-medium",
-    "propagation": "Division"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ Low-medium",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Asparagus setaceus",
@@ -34,12 +34,12 @@
     "photo": "images/plants/asparagus.jpg",
     "watering": 10,
     "id": 3,
-    "careLevel": "Novice",
-    "light": "Low-moderate",
-    "water": "Moderate",
-    "soil": "Moisture-retaining",
-    "humidity": "Medium-high",
-    "propagation": "Division"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Low-moderate",
+    "water": "💦 Moderate",
+    "soil": "🪴 Moisture-retaining",
+    "humidity": "♨️ Medium-high",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Begonia maculata",
@@ -48,12 +48,12 @@
     "photo": "images/plants/begonia2.jpg",
     "watering": 7,
     "id": 4,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "Medium",
-    "propagation": "Leaf cuttings + division"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ Medium",
+    "propagation": "🌱 Leaf cuttings + division"
   },
   {
     "species": "Chamaedorea spp.",
@@ -62,12 +62,12 @@
     "photo": "images/plants/chamedorea.jpg",
     "watering": 8,
     "id": 5,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Moisture-retaining",
-    "humidity": "Medium-high",
-    "propagation": "Division"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Moisture-retaining",
+    "humidity": "♨️ Medium-high",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Mammilaria ssp.",
@@ -76,26 +76,26 @@
     "photo": "images/plants/mammilaria.jpg",
     "watering": 8,
     "id": 6,
-    "careLevel": "Novice",
-    "light": "Full sun",
-    "water": "Low",
-    "soil": "Coarse + sandy",
-    "humidity": "None",
-    "propagation": "Plantlets + offsets"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Full sun",
+    "water": "💦 Low",
+    "soil": "🪴 Coarse + sandy",
+    "humidity": "♨️ None",
+    "propagation": "🌱 Plantlets + offsets"
   },
   {
     "species": "Monstera adansonii",
-    "alias": "Máscara de Macaco",
+    "alias": "Costela-de-Eva",
     "size": "50cm",
     "photo": "images/plants/adansonii.jpg",
     "watering": 9,
     "id": 7,
-    "careLevel": "Green thumb",
-    "light": "Bright, indirect",
-    "water": "Moderate-high",
-    "soil": "Well-draining",
-    "humidity": "High",
-    "propagation": "Stem cuttings"
+    "careLevel": "🎓 Green thumb",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate-high",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ High",
+    "propagation": "🌱 Stem cuttings"
   },
   {
     "species": "Monstera deliciosa",
@@ -104,12 +104,12 @@
     "photo": "images/plants/costela.jpg",
     "watering": 5,
     "id": 8,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "Medium",
-    "propagation": "Stem cuttings"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ Medium",
+    "propagation": "🌱 Stem cuttings"
   },
   {
     "species": "Nephrolepis exaltata",
@@ -118,12 +118,12 @@
     "photo": "images/plants/nephrolepis.jpg",
     "watering": 5,
     "id": 9,
-    "careLevel": "Green thumb",
-    "light": "Bright, indirect",
-    "water": "Moderate-high",
-    "soil": "Moisture-retaining",
-    "humidity": "High",
-    "propagation": "Division"
+    "careLevel": "🎓 Green thumb",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate-high",
+    "soil": "🪴 Moisture-retaining",
+    "humidity": "♨️ High",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Persea americana",
@@ -132,12 +132,12 @@
     "photo": "images/plants/avocado.jpg",
     "watering": 7,
     "id": 10,
-    "careLevel": "Novice",
-    "light": "Bright-full sun",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "Medium",
-    "propagation": "Seed"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright-full sun",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ Medium",
+    "propagation": "🌱 Seed"
   },
   {
     "species": "Phalaenopsis ssp.",
@@ -146,12 +146,12 @@
     "photo": "images/plants/orchidea.jpg",
     "watering": 7,
     "id": 11,
-    "careLevel": "Green thumb",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "None",
-    "propagation": "Stem cuttings"
+    "careLevel": "🎓 Green thumb",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ None",
+    "propagation": "🌱 Stem cuttings"
   },
   {
     "species": "Philodendron erubescens",
@@ -160,12 +160,12 @@
     "photo": "images/plants/orange.jpg",
     "watering": 7,
     "id": 12,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "Medium",
-    "propagation": "Division"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ Medium",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Philodendron erubescens",
@@ -174,12 +174,12 @@
     "photo": "images/plants/princess.jpg",
     "watering": 7,
     "id": 13,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "Medium",
-    "propagation": "Division + stem cuttings"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ Medium",
+    "propagation": "🌱 Division + stem cuttings"
   },
   {
     "species": "Platycerium bifurcatum",
@@ -188,12 +188,12 @@
     "photo": "images/plants/chifre.jpg",
     "watering": 8,
     "id": 14,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "Medium-high",
-    "propagation": "Division"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ Medium-high",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Phlebodium aureum",
@@ -202,12 +202,12 @@
     "photo": "images/plants/phlebodium.jpg",
     "watering": 6,
     "id": 15,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate-high",
-    "soil": "Moisture-retaining",
-    "humidity": "High",
-    "propagation": "Division"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate-high",
+    "soil": "🪴 Moisture-retaining",
+    "humidity": "♨️ High",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Schlumbergera truncata",
@@ -216,12 +216,12 @@
     "photo": "images/plants/flormaio.jpeg",
     "watering": 7,
     "id": 16,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate-low",
-    "soil": "Well-draining",
-    "humidity": "Low",
-    "propagation": "Leaf cutting"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate-low",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ Low",
+    "propagation": "🌱 Leaf cutting"
   },
   {
     "species": "Strelitzia reginae",
@@ -230,12 +230,12 @@
     "photo": "images/plants/strelitzia.jpg",
     "watering": 5,
     "id": 17,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "Low",
-    "propagation": "Division"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ Low",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Tradescantia blossfeldiana",
@@ -244,12 +244,12 @@
     "photo": "images/plants/nanouk.jpg",
     "watering": 12,
     "id": 18,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Moisture-retaining",
-    "humidity": "Medium",
-    "propagation": "Stem cuttings"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Moisture-retaining",
+    "humidity": "♨️ Medium",
+    "propagation": "🌱 Stem cuttings"
   },
   {
     "species": "Tradescantia zebrina",
@@ -258,12 +258,12 @@
     "photo": "images/plants/lambari.jpg",
     "watering": 9,
     "id": 19,
-    "careLevel": "Novice",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Moisture-retaining",
-    "humidity": "Medium",
-    "propagation": "Stem cuttings"
+    "careLevel": "🎓 Novice",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Moisture-retaining",
+    "humidity": "♨️ Medium",
+    "propagation": "🌱 Stem cuttings"
   },
   {
     "species": "Calathea lietzei",
@@ -272,12 +272,12 @@
     "photo": "images/plants/calathea.jpeg",
     "watering": null,
     "id": 20,
-    "careLevel": "Green thumb",
-    "light": "Bright, indirect",
-    "water": "Moderate",
-    "soil": "Well-draining",
-    "humidity": "High",
-    "propagation": "Division"
+    "careLevel": "🎓 Green thumb",
+    "light": "☀ Bright, indirect",
+    "water": "💦 Moderate",
+    "soil": "🪴 Well-draining",
+    "humidity": "♨️ High",
+    "propagation": "🌱 Division"
   },
   {
     "species": "Maranta leuconeura",
@@ -286,11 +286,11 @@
     "photo": "images/plants/maranta.jpeg",
     "watering": null,
     "id": 21,
-    "careLevel": "Green thumb",
-    "light": "Low-moderate",
-    "water": "Moderate",
-    "soil": "Moisture-retaining",
-    "humidity": "High",
-    "propagation": "Division"
+    "careLevel": "🎓 Green thumb",
+    "light": "☀ Low-moderate",
+    "water": "💦 Moderate",
+    "soil": "🪴 Moisture-retaining",
+    "humidity": "♨️ High",
+    "propagation": "🌱 Division"
   }
 ]

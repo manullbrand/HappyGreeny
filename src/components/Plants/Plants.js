@@ -40,24 +40,27 @@ export default function Plants() {
                 </div>
               </div>
               <div className="plants__plantInfo">
-                <p>{item.size}</p>
+                <h3>A bit about me:</h3>
                 <p>{item.careLevel}</p>
                 <p>{item.light}</p>
                 <p>{item.water}</p>
                 <p>{item.soil}</p>
                 <p>{item.humidity}</p>
                 <p>{item.propagation}</p>
-                <p>Watering on Spring occurs each {item.watering} days</p>
+                <p>Currently {item.size} high</p>
+                {/* <p>Watering on Spring occurs each {item.watering} days</p> */}
               </div>
             </div>
 
-            <Actions />
+            <div className="plants__calendar">
+              <Actions />
+            </div>
           </li>
         ))}
       </ul>
-      <h1 className="plants__averageWatering">
+      {/* <h1 className="plants__averageWatering">
         Average watering time for all plants in the Spring: {averageWatering()}{" "}
-      </h1>
+      </h1> */}
     </>
   );
 }
