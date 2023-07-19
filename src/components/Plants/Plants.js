@@ -53,6 +53,7 @@ export default function Plants() {
             </div>
 
             <div className="plants__calendar">
+              <p>List of the last 3 actions' dates:</p>
               <Actions />
             </div>
           </li>
