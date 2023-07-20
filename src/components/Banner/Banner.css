@@ -1,13 +1,13 @@
-.App-header {
+.App-header__bannerText {
   background-color: rgba(52, 64, 66, 0.536);
   display: grid;
   position: relative;
 }
 
-.App-header h1 {
+.App-header__h1 {
   font-size: 5rem;
   font-family: "Elsie Swash Caps", sans-serif;
-  margin: 1rem 1.5rem 1rem 1.5rem;
+  margin: 1rem 1.5rem 1rem 4rem;
   text-shadow: 4px 4px 8px rgba(51, 51, 50, 0.646);
   z-index: 1;
 }
@@ -16,24 +16,107 @@
   filter: invert(77%) sepia(98%) saturate(1246%) hue-rotate(322deg)
     brightness(101%) contrast(92%);
   height: 6rem;
+
   width: 6rem;
 }
 
-.App-header h2 {
+.App-header__h2 {
   font-size: 1.8rem;
- 
-  margin: 0 1.5rem 1rem 5.5rem;
+  margin: 0 1.5rem 1rem 8rem;
   text-shadow: 4px 4px 5px rgba(51, 51, 50, 0.646);
   z-index: 1;
 }
 
 .App-header__imgBanner {
-  border: white;
   border-radius: 120px 0 0 120px;
   height: 15rem;
   position: absolute;
   top: 0;
   right: 0;
-  width: 32rem;
+  width: 36rem;
   z-index: 0;
+}
+
+.App-header__imgBanner2 {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1400px) {
+  .App-header__imgBanner {
+    display: none;
+  }
+
+  .App-header__imgBanner2 {
+    display: block;
+    border-radius: 80px 0 0 80px;
+    height: 15rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50rem;
+    z-index: 0;
+  }
+
+  .App-header__h1 {
+    margin: 1rem 1.5rem 1rem 8rem;
+  }
+
+  .App-header__h2 {
+    margin: 0 1.5rem 1rem 12rem;
+  }
+}
+
+@media screen and (min-width: 583px) and (max-width: 840px) {
+  .App-header__imgBanner {
+    border-radius: 0;
+    width: 100vw;
+  }
+
+  .App-header__bannerText {
+    background-color: #1276928e;
+    height: 15rem;
+    z-index: 1;
+  }
+
+  .App-header__h1 {
+    display: flex;
+    font-size: 4.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App-header__h2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .App-header__imgBanner {
+    border-radius: 0;
+    height: 10rem;
+    width: 100vw;
+  }
+
+  .App-header__bannerText {
+    background-color: #127692ba;
+    height: 10rem;
+    z-index: 1;
+  }
+
+  .App-header__logoTitle {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .App-header__h1 {
+    display: flex;
+    font-size: 3.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App-header__h2 {
+    display: none;
+  }
 }

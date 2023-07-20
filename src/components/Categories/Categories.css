@@ -56,3 +56,92 @@
 .categories__listTitle:hover {
   --_i: 1; /* "switch" variable used in CSS rotations (DRY switch) and etc. (see the concept here: https://css-tricks.com/dry-switching-with-css-variables-the-difference-of-one-declaration/" */
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1400px) {
+  .categories__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 18rem;
+    grid-gap: 1rem;
+
+    margin: 0;
+    padding: 4rem 2rem;
+  }
+
+  .categories__cards {
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.09);
+    border-radius: 0 0 10px 0;
+    background-color: rgba(247, 244, 244, 0.132);
+    padding: 1rem;
+  }
+
+  .categories__container h2 {
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 8px black;
+  }
+
+  .categories__hiddenText {
+    display: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.748);
+  }
+
+  .categories__showHidden:hover .categories__hiddenText {
+    display: block;
+  }
+
+  .categories__listTitle {
+    --c: #494742; /* the color  */
+    --h: 1.5em; /* the height */
+
+    font-weight: bold;
+    line-height: var(--h);
+    color: #0000;
+    cursor: pointer;
+    overflow: hidden; /* keeps the animation only visible inside the element's boundaries*/
+
+    text-transform: uppercase;
+    text-shadow: 0 calc(-1 * var(--h) * var(--_i, 0)) var(--c),
+      0 calc(var(--h) * (1 - var(--_i, 0))) #fff;
+    background: linear-gradient(var(--c) 0 0) no-repeat
+      calc(200% - var(--_i, 0) * 100%) 100% / 200%
+      calc(100% * var(--_i, 0) + 0.08em);
+    transition: 0.3s calc(var(--_i, 0) * 0.3s),
+      background-position 0.3s calc(0.3s - calc(var(--_i, 0) * 0.3s));
+  }
+
+  .categories__listTitle:hover {
+    --_i: 1; /* "switch" variable used in CSS rotations (DRY switch) and etc. (see the concept here: https://css-tricks.com/dry-switching-with-css-variables-the-difference-of-one-declaration/" */
+  }
+}
+
+@media screen and (min-width: 583px) and (max-width: 840px) {
+  .categories__container {
+    background: url("../../assets/images/splash-background.png") no-repeat top
+      0rem right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15rem 17rem;
+    grid-gap: 2rem;
+
+    margin: 0;
+    padding: 4rem 3rem;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .categories__container {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  .categories__listTitle {
+    font-size: 0.8rem;
+  }
+
+  .categories__hiddenText {
+    font-size: 0.8rem;
+  }
+}
