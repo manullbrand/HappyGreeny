@@ -1,7 +1,7 @@
 [
   {
     "species": "Adiantum aethiopicum",
-    "alias": "Avenquinha",
+    "alias": "Avenca",
     "size": "20cm",
     "photo": "images/plants/avenquinha.jpg",
     "watering": 9,
@@ -43,7 +43,7 @@
   },
   {
     "species": "Begonia maculata",
-    "alias": "Begônia Polka-dot",
+    "alias": "Polka-dot",
     "size": "50cm",
     "photo": "images/plants/begonia2.jpg",
     "watering": 7,
@@ -71,7 +71,7 @@
   },
   {
     "species": "Mammilaria ssp.",
-    "alias": "Cactus Mammilaria",
+    "alias": "Mammilaria",
     "size": "40cm",
     "photo": "images/plants/mammilaria.jpg",
     "watering": 8,
@@ -127,7 +127,7 @@
   },
   {
     "species": "Persea americana",
-    "alias": "Abacatinho",
+    "alias": "Avocado",
     "size": "100cm",
     "photo": "images/plants/avocado.jpg",
     "watering": 7,
@@ -141,7 +141,7 @@
   },
   {
     "species": "Phalaenopsis ssp.",
-    "alias": "Orquídea rosa",
+    "alias": "Orquídea",
     "size": "40cm",
     "photo": "images/plants/orchidea.jpg",
     "watering": 7,
@@ -183,7 +183,7 @@
   },
   {
     "species": "Platycerium bifurcatum",
-    "alias": "Chifrinho-de-veado",
+    "alias": "Chifre-de-veado",
     "size": "40cm",
     "photo": "images/plants/chifre.jpg",
     "watering": 8,
@@ -267,7 +267,7 @@
   },
   {
     "species": "Calathea lietzei",
-    "alias": "Calathea White Fusion",
+    "alias": "White Fusion",
     "size": "10cm",
     "photo": "images/plants/calathea.jpeg",
     "watering": null,

@@ -58,17 +58,17 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1485px) {
   .categories__container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 18rem;
+    grid-template-rows: 19rem;
     grid-gap: 1rem;
 
     padding: 10rem 2rem;
   }
 }
 
-@media screen and (min-width: 583px) and (max-width: 840px) {
+@media screen and (min-width: 583px) and (max-width: 900px) {
   .categories__container {
     background: url("../../assets/images/splash-background.png") no-repeat top
       0rem right -8rem;

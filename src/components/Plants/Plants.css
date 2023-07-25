@@ -22,7 +22,7 @@
 }
 
 .plants__alias {
-  margin: 1rem 0 0 2rem;
+  margin: auto;
   text-transform: uppercase;
 }
 
@@ -49,14 +49,14 @@
   opacity: 0;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   -ms-tranform: translate(-50%, -50%);
   width: 60%;
 }
 
 .plants__containerImg:hover img {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .plants__containerImg:hover .plants__containerTextbox {
@@ -64,10 +64,8 @@
 }
 
 .plants__containerText {
-  background-color: #f4b64b97;
-  border-radius: 1rem;
+  font-size: 1.2rem;
   font-style: italic;
-  padding: 10px 30px;
   text-align: end;
 }
 
@@ -90,22 +88,18 @@
   background-color: rgba(255, 255, 255, 0.295);
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-
+  font-size: 1.1rem;
   line-height: 1.5rem;
   padding: 0.5rem;
 }
 
-.plants__plantInfo h3 {
+.plants__aBitAbout {
   margin: 0 0 0.5rem 0;
 }
 
 .plants__plantInfo p {
   color: white;
   text-shadow: none;
-}
-
-.plants__averageWatering {
-  grid-column: 1 / span 2;
 }
 
 .plants__calendar {
@@ -134,7 +128,6 @@
 
   .plants__containerText {
     background-color: #ffffff00;
-    font-size: larger;
   }
 
   .plants__plantCard {
@@ -146,11 +139,7 @@
   }
 }
 
-@media screen and (min-width: 583px) and (max-width: 1485px) {
-  .plants__alias {
-    margin: auto;
-  }
-
+@media screen and (min-width: 598px) and (max-width: 1485px) {
   .plants__plantCard {
     flex-direction: column;
     row-gap: 2rem;
@@ -172,30 +161,15 @@
 
   .plants__alias {
     text-align: center;
-    font-size: 1.2rem;
-    margin: auto;
   }
 
   .plants__containerImg {
     width: 95%;
   }
 
-  .plants__containerImg:hover img {
-    opacity: 0.7;
-  }
-
   .plants__containerTextbox {
     top: 80%;
     left: 55%;
-  }
-
-  .plants__containerText {
-    background-color: #ffffff00;
-    font-size: larger;
-  }
-
-  .plants__aBitAbout {
-    display: none;
   }
 
   .plants__plantInfo {
@@ -221,7 +195,7 @@
   }
 }
 
-@media screen and (min-width: 583px) and (max-width: 900px) {
+@media screen and (min-width: 598px) and (max-width: 930px) {
   .plants__listCare {
     grid-template-columns: 1fr 1fr;
   }
@@ -231,9 +205,8 @@
   }
 
   .plants__alias {
-    text-align: center;
     font-size: 1.2rem;
-    margin: auto;
+    text-align: center;
   }
 
   .plants__containerImg {
@@ -249,15 +222,6 @@
     left: 60%;
   }
 
-  .plants__containerText {
-    background-color: #ffffff00;
-    font-size: larger;
-  }
-
-  .plants__aBitAbout {
-    display: none;
-  }
-
   .plants__plantInfo {
     font-size: 1.1rem;
     line-height: 1.5rem;
@@ -281,7 +245,7 @@
   }
 }
 
-@media screen and (max-width: 583px) {
+@media screen and (max-width: 598px) {
   .plants__cardTitle {
     font-size: 2rem;
   }
@@ -306,8 +270,8 @@
   }
 
   .plants__alias {
-    text-align: center;
     font-size: 1.2rem;
+    text-align: center;
     margin: auto;
   }
 
@@ -322,16 +286,9 @@
 
   .plants__containerText {
     background-color: #ffffff00;
-    font-size: larger;
-  }
-
-  .plants__aBitAbout {
-    display: none;
   }
 
   .plants__plantInfo {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
     width: 80%;
   }
 
