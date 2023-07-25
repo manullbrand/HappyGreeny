@@ -40,7 +40,7 @@ export default function Plants() {
                 </div>
               </div>
               <div className="plants__plantInfo">
-                <h3>A bit about me:</h3>
+                <h3 className="plants__aBitAbout">A bit about me:</h3>
                 <p>{item.careLevel}</p>
                 <p>{item.light}</p>
                 <p>{item.water}</p>

@@ -110,10 +110,11 @@
   }
 
   .App-header__h1 {
+    align-items: center;
     display: flex;
     font-size: 3.5rem;
-    align-items: center;
     justify-content: center;
+    margin: 0;
   }
 
   .App-header__h2 {

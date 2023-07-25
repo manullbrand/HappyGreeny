@@ -118,3 +118,236 @@
   gap: 1rem;
   padding: 1rem;
 }
+
+/* MEDIA QUERY */
+@media screen and (min-width: 1485px) {
+  .plants__listCare {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 0;
+    padding: 0.5rem;
+  }
+
+  .plants__listCard {
+    margin: 0.8rem;
+    padding: 0.8rem;
+  }
+
+  .plants__containerText {
+    background-color: #ffffff00;
+    font-size: larger;
+  }
+
+  .plants__plantCard {
+    gap: 0.3rem;
+  }
+
+  .plants__calendar {
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 583px) and (max-width: 1485px) {
+  .plants__alias {
+    margin: auto;
+  }
+
+  .plants__plantCard {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .plants__listCard {
+    background-color: #fac66c;
+    border-radius: 0;
+    margin: 1.5rem;
+  }
+
+  .plants__listCare {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .plants__listCare img {
+    border-radius: 2px;
+  }
+
+  .plants__alias {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+
+  .plants__containerImg {
+    width: 95%;
+  }
+
+  .plants__containerImg:hover img {
+    opacity: 0.7;
+  }
+
+  .plants__containerTextbox {
+    top: 80%;
+    left: 55%;
+  }
+
+  .plants__containerText {
+    background-color: #ffffff00;
+    font-size: larger;
+  }
+
+  .plants__aBitAbout {
+    display: none;
+  }
+
+  .plants__plantInfo {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width: 80%;
+  }
+
+  .plants__plantInfo p {
+    color: #494742;
+    text-shadow: 2px 4px 6px #4947426c;
+  }
+
+  .plants__calendar {
+    margin: auto;
+    padding: 1rem;
+    width: 75%;
+  }
+
+  .plants__calendar p {
+    color: #494742;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 583px) and (max-width: 900px) {
+  .plants__listCare {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .plants__listCare img {
+    border-radius: 2px;
+  }
+
+  .plants__alias {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+
+  .plants__containerImg {
+    width: 95%;
+  }
+
+  .plants__containerImg:hover img {
+    opacity: 0.7;
+  }
+
+  .plants__containerTextbox {
+    top: 80%;
+    left: 60%;
+  }
+
+  .plants__containerText {
+    background-color: #ffffff00;
+    font-size: larger;
+  }
+
+  .plants__aBitAbout {
+    display: none;
+  }
+
+  .plants__plantInfo {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width: 80%;
+  }
+
+  .plants__plantInfo p {
+    color: #494742;
+    text-shadow: 2px 4px 6px #4947426c;
+  }
+
+  .plants__calendar {
+    margin: auto;
+    padding: 1rem;
+    width: 75%;
+  }
+
+  .plants__calendar p {
+    color: #494742;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .plants__cardTitle {
+    font-size: 2rem;
+  }
+
+  .plants__plantCard {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .plants__listCard {
+    background-color: #fac66c;
+    border-radius: 0;
+    padding: 1rem;
+  }
+
+  .plants__listCare {
+    grid-template-columns: 1fr;
+  }
+
+  .plants__listCare img {
+    border-radius: 2px;
+  }
+
+  .plants__alias {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+
+  .plants__containerImg {
+    width: 90%;
+  }
+
+  .plants__containerTextbox {
+    top: 80%;
+    left: 60%;
+  }
+
+  .plants__containerText {
+    background-color: #ffffff00;
+    font-size: larger;
+  }
+
+  .plants__aBitAbout {
+    display: none;
+  }
+
+  .plants__plantInfo {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width: 80%;
+  }
+
+  .plants__plantInfo p {
+    color: #494742;
+    text-shadow: 2px 4px 6px #4947426c;
+  }
+
+  .plants__calendar {
+    margin: auto;
+    padding: 1rem;
+    width: 75%;
+  }
+
+  .plants__calendar p {
+    color: #494742;
+    display: none;
+  }
+}
