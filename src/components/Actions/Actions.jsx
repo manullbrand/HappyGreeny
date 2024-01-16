@@ -25,14 +25,11 @@ export default function Actions() {
   };
 
   const handleAddItem = (date) => {
-    const newItem = (
-      <>
-        {formatDate(selectedDate).day}/{formatDate(selectedDate).month}/
-        {formatDate(selectedDate).year}
-      </>
-    );
+    const newItem = `${formatDate(date).day}/${formatDate(date).month}/${
+      formatDate(date).year
+    }`;
 
-    if (list.length < 4) {
+    if (list.length < 3) {
       setList((prevList) => [...prevList, newItem]);
     } else {
       setList((prevList) => [...prevList.slice(1), newItem]);
@@ -47,22 +44,18 @@ export default function Actions() {
   return (
     <>
       <DatePicker
-      
         format="DD-MM-YYYY"
         label={"Watered"}
         value={selectedDate}
         onChange={handleDateChange}
         TextField={(params) => <TextField {...params} />}
       />
-      {/* Essa lista aqui embaixo deveria ser um componente? */}
-      {selectedDate && (
-        <ul>
-          {/* slice(1) to do not render the first date = NaN */}
-          {list.slice(1).map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-      )}
+
+      <ul>
+        {list.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
 
       <DatePicker format="DD-MM-YYYY" label={"Fertilized"} />
 

@@ -6,18 +6,17 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 
-
-
 function App() {
   return (
-    <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <div className="App">
-        <Banner />
+    <div className="App">
+      <Banner />
+     { /* checar onde abrir e fechar o Localization Provider. Checar se posso colocar dentro do componente Plants */}
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
         <Categories />
         <Plants />
         <Footer />
-      </div>
-    </LocalizationProvider>
+      </LocalizationProvider>
+    </div>
   );
 }
 

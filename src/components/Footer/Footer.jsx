@@ -4,7 +4,7 @@ import linkedinIcon from "../../assets/logos/linkedin.svg";
 
 export default function Footer() {
   return (
-    <div className="footer__container">
+    <footer className="footer__container">
       <p>Developed by Manuela Brandão </p>
 
       <a
@@ -18,18 +18,16 @@ export default function Footer() {
 
       <a
         className="footer__social"
-        href="https://www.linkedin.com/in/manulbrandao
-
-        "
+        href="https://www.linkedin.com/in/manulbrandao"
         target="_blank"
       >
         <img
           className="footer__logo"
           src={linkedinIcon}
           alt="logo from LinkedIn"
-        />{" "}
+        />
         <p>/manulbrandao</p>
       </a>
-    </div>
+    </footer>
   );
 }
